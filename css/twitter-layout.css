@@ -25,6 +25,13 @@ p {
 }
 
 body > header {
+    display: grid;
+    place-items: center center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
     background: #FFF;
     border-bottom: 3px solid rgba(0,0,0,0.05);
 }
