@@ -117,5 +117,14 @@ body > main {
 }
 
 @media (min-width: 1238px) {
-    
+    body > main {
+        grid: 
+        'profile feed notice' 214px
+        'trending feed notice' 136px
+        'trending feed follow' 334px
+        '. feed follow' 130px
+        '. feed links' 163px
+        '. feed .' max-content
+        / 290px 588px 300px;
+    }   
 }
