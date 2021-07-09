@@ -42,6 +42,27 @@ body > main {
     margin-top: 46px;
 }
 
+#profile-tile {
+    display: none;
+}
+
+#trending-tile {
+    display: none;
+}
+
+#notice-tile {
+    display: none;
+}
+
+#follow-tile {
+    display: none;
+}
+
+#links-tile {
+    display: none;
+}
+
+
 .tile {
     padding: 10px 12px;
     background: #FFF;
