@@ -37,6 +37,10 @@ body > header {
 }
 
 body > main {
+    display: grid;
+    grid: 'feed' max-content / 85vw;
+    grid-gap: 10px;
+    justify-content: center;
     width: 100%;
     padding: 10px;
     margin-top: 46px;
@@ -69,7 +73,47 @@ body > main {
 }
 
 @media (min-width: 910px) {
+    body > main {
+        grid: 
+        'profile feed' 214px
+        'notice feed' 360px
+        'follow feed' 455px
+        'trending feed' 488px
+        'links feed' 163px
+        '. feed' max-content
+        / 290px 588px;
 
+    }
+
+    #profile-tile {
+        grid-area: profile;
+        display: block;
+    }
+    
+    #trending-tile {
+        grid-area: trending;
+        display: block;
+    }
+    
+    #notice-tile {
+        grid-area: notice;
+        display: block;
+    }
+    
+    #follow-tile {
+        grid-area: follow;
+        display: block;
+    }
+    
+    #links-tile {
+        grid-area: links;
+        display: block;
+    }
+
+    #feed-tile {
+        grid-area: feed;
+        display: block;
+    }
 }
 
 @media (min-width: 1238px) {
